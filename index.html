@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>hello</h1>
+    <h2>welcome</h2> -->
+    <script>
+        // var head1=document.createElement("h1")
+        // console.log(head1)
+        // head1.innerText="hello"
+        var div1= document.createElement("div");
+        div1.style.border="2px solid black";
+        div1.style.height="400px";
+        div1.style.width="400px";
+        div1.style.margin="300px";
+        div1.style.marginBottom="100%";
+        div1.style.marginTop="10px";
+        
+        
+    
+
+        div1.style.backgroundImage = "url('https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yMjItbWluZC0xNl8xLmpwZw.jpg')"
+        document.body.appendChild(div1)
+
+
+        var img1=document.createElement("img");
+        img1.setAttribute("src","https://pbs.twimg.com/media/EeUI99bUcAMiRFa?format=jpg&name=medium");
+        img1.style.borderRadius="50px"
+        img1.setAttribute("height","150px");
+        img1.setAttribute("width","150px");
+        img1.style.padding="50px"
+        img1.style.paddingLeft="120px"
+        img1.style.paddingTop="10px"
+        div1.appendChild(img1);
+        var a=document.createElement("h1");
+
+        a.innerText="Full stack Developer";
+        a.style.paddingLeft="50px";
+        a.style.paddingTop="px";
+        a.style.color="red";
+
+        div1.appendChild(a)
+
+
+        let head = document.createElement("h3");
+        head.textContent = "Name:    Praveena";
+        head.style.paddingLeft="100px";
+        div1.appendChild(head);
+
+
+        let head2 = document.createElement("h3");
+        head2.innerText = "Id: 0857";
+        head2.style.paddingLeft="140px";
+        div1.appendChild(head2);
+
+        let head3 = document.createElement("h3");
+        head3.textContent = "Blood: O+ve";
+        head3.style.paddingLeft="120px";
+        div1.appendChild(head3);
+
+        
+
+
+
+    </script>
+</body>
+</html>
